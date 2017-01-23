@@ -1,14 +1,14 @@
-title: Your awesome title
+title: Alina Kadrova
 email: your-email@domain.com
-author: Test Title
-description: Test description
+author: Alina Kadrova
+description: "Привет меня зовут Алина, я занимаюсь веб-дизайном: от макетов до верстки кроссбраузерных приложений и сайтов. Вы можете написать мне на почту."
 
 baseurl: ""
 url: ""
 
 collections:
   projects:
-    layout: project    
+    layout: project
     output: true
 
 markdown: kramdown

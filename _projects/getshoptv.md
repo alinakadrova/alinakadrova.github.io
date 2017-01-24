@@ -1,6 +1,7 @@
 ---
 title: GetShopTV
 layout: project
+date: 2017-01-02
 thumbnail_path: "/assets/img/getshoptv/thumbnail.jpg"
 mockup_path: "/assets/img/getshoptv/mockup.jpg"
 image_path: "/assets/img/getshoptv/960.jpg"

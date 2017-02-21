@@ -3,7 +3,13 @@ layout: page
 ---
 <section>
   <h2>{{ page.title }}</h2>
-  <img src="{{ page.mockup_path }}" alt="{{ project.title }}">
+  <div class="mockup">
+    <img src="{{ page.mockup_path }}" alt="{{ project.title }}">
+  </div>
   <p>{{ content }}</p>
   <img src="{{ page.image_path }}" alt="{{ project.title }}">
+  {% if page.image2_path %}
+    <br>
+    <img src="{{ page.image2_path }}" alt="{{ project.title }}">
+  {% endif %}
 </section>
